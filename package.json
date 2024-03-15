@@ -1,0 +1,25 @@
+{
+  "name": "typescript-template",
+  "version": "0.0.1",
+  "description": "Starter template for TypeScript projects",
+  "type": "module",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brannonh/typescript-template.git"
+  },
+  "author": "Brannon Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brannonh/typescript-template/issues"
+  },
+  "homepage": "https://github.com/brannonh/typescript-template#readme",
+  "scripts": {
+    "build": "rm -rf build && tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
